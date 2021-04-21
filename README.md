@@ -8,7 +8,7 @@ Set default physics list as G4EmStandardPhysics_option4 for high precision low e
 generation, default is a gamma with 10 keV starting from a circular vertex region with 90 mum radius into the diamond.
 
 Geometry is a vacuum box world with a box made of carbon at density 3.515 g/cm^3 inserted. Measures of the diamond box are 
-5.1 x 3.6 x 0.3 mm^3. 
+5.1 x 3.6 x 0.6 mm^3. 
 
 Scorers: interactions in the diamond volume - deposited energy and location in 3D. Output in ROOT file.
 
@@ -38,9 +38,10 @@ At the prompt then type:
 
 .L analyseRootOutput.C
 
-and call one of the functions named in hte script for instance, type
+and call one of the functions named in the script for instance, type
 
 shortsummary("")
 
-which loads the default output file called xrayout.root.
+which loads the default output file called xrayout.root. The script is not quite complete yet. It should allow to make 
+relevant plots eventually.
 
