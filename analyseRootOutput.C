@@ -11,12 +11,8 @@ void shortsummary(TString fname) {
   TTreeReader nt1("Score", fin);
   TTreeReaderValue<int>    evid1(nt1, "EventID");
    
-  TTreeReader nt2("Watch", fin);
-  TTreeReaderValue<int>    evid2(nt2, "EventID");
-      
   // event loop
   int counterh = 0;
-  int counterw = 0;
   int prevev   = -1;
   while (nt1.Next())
   {
