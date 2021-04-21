@@ -5,7 +5,7 @@ Simulate a 15 keV x-ray beam on a Diamond detector.
 ## Notes 
 
 Set default physics list as G4EmStandardPhysics_option4 for high precision low energy physics; G4ParticleGun for simple event 
-generation, default is a gamma with 10 keV starting from a circular vertex region with 90 mum radius into the diamond.
+generation, default is a gamma with 15 keV starting from a circular vertex region with 8.7 mum Gaussian profile into the diamond.
 
 Geometry is a vacuum box world with a box made of carbon at density 3.515 g/cm^3 inserted. Measures of the diamond box are 
 5.1 x 3.6 x 0.6 mm^3. 
