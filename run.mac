@@ -1,0 +1,11 @@
+# minimal command set test
+# verbose
+/run/verbose 1
+/tracking/verbose 1
+
+# run init
+/run/initialize
+
+# start
+/run/beamOn 4
+
