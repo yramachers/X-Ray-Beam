@@ -1,6 +1,6 @@
 # X-Ray Beam Example
 
-Simulate a 10 keV x-ray beam on a Diamond detector.
+Simulate a 15 keV x-ray beam on a Diamond detector.
 
 ## Notes 
 
@@ -28,3 +28,19 @@ and run in the build directory for instance as
 ./scattering -m run.mac
 
 Find out about CLI options using --help option.
+
+A simple ROOT script demonstrating reading and analysis of results is also part of the package. Using the environment from 
+above also permits access to ROOT. Type:
+
+root (or 'root -b' without graphics display)
+
+At the prompt then type:
+
+.L analyseRootOutput.C
+
+and call one of the functions named in hte script for instance, type
+
+shortsummary("")
+
+which loads the default output file called xrayout.root.
+
